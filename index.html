@@ -68,7 +68,11 @@
                     <img class="trump img-responsive" src="img/2.png" alt="">
                     <div class="intro-text">
                         <span class="skills">How much can I blabber?</span><br/>
-                        <input id="number" class="input" onchange="getParaNumber()" type="text" value="0" />
+                        <label class="radio-inline"><input type="radio" name="option" id="paragraphs">Paragraphs</label>
+                        <label class="radio-inline"><input type="radio" name="option" id="words">Words</label>
+                        <label class="radio-inline"><input type="radio" name="option" id="letters">Letters</label><br/>
+                        <input id="number" class="input" type="text" value="0" />
+                        <button onclick="getParaNumber()">Get Trump Ipsum</button>
                         <hr class="star-light">
                         <textarea id="genText" rows="10" class="para"></textarea>
                     </div>
