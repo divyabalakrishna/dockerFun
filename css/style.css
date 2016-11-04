@@ -1,0 +1,19 @@
+.team{
+    width:100%;
+}
+
+.input{
+    width: 5%;
+}
+
+.trump{
+    width: 50%;
+}
+
+.para{
+    width: 50%;
+    background: #18BC9C;
+    color: white;
+    border: none;
+    font-size: 17px;
+}

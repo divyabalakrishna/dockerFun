@@ -13,5 +13,9 @@ COPY . /usr/src/app
 
 EXPOSE 8080
 CMD [ "npm", "start" ]
-
-ADD index.html /www/
+RUN ["npm", "install", "twitter"]
+RUN ["npm", "install", "node-twitter-api"]
+RUN ["npm", "install", "-g", "json"]
+RUN ["npm", "install", "fs"]
+RUN ["apt-get", "update"]
+RUN ["apt-get", "-y", "install", "vim"]
